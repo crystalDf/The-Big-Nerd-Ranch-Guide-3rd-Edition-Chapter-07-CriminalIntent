@@ -49,6 +49,7 @@ public class Crime {
     public String getFormattedDate() {
         String format = "EEEE, MMM d, yyyy";
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat(format, Locale.US);
+
         return simpleDateFormat.format(mDate);
     }
 }
